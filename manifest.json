@@ -6,5 +6,10 @@
 	"all_frames": true,
 	"matches": ["<all_urls>"],
 	"js": ["jquery.js", "mailto.js"]
-  }]
+  }],
+  "icons": {
+	"16": "fastmail_16.gif",
+	"48": "fastmail_48.gif",
+	"128": "fastmail_128.gif"
+  }
 }
