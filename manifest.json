@@ -1,0 +1,10 @@
+{
+  "name": "Fastmail Mailto",
+  "version": "1.0",
+  "description": "Makes mailto links open in Fastmail.",
+  "content_scripts": [{
+	"all_frames": true,
+	"matches": ["<all_urls>"],
+	"js": ["jquery.js", "mailto.js"]
+  }]
+}

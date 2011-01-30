@@ -1,0 +1,4 @@
+Google Chrome extension to open mailto: links with Fastmail.
+
+Before using it, you must add jquery. Save it as Mailto_Fastmail/jquery.js.
+
