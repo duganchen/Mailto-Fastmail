@@ -1,5 +1,5 @@
 $(function() {
-	$.each($("a"), function(indexInArray, valueOfElement) {
+	$.each($("a[href]"), function(indexInArray, valueOfElement) {
 		var url = "http://www.fastmail.fm/action/compose/"
 		var href = null;
 		var parameters = null;
