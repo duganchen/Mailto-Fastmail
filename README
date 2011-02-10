@@ -4,11 +4,26 @@ The icon is adapted from the official Fastmail logo:
 
 	http://jhoward.fastmail.fm/logos/index.html
 
+Before using it, you must do two things:
 
-Before using it, you must do two things: 
+First, create fastmail_48 and fastmail_16 icons by resizing the fastmail_128
+icon.
 
-First, add jquery. Save it as Mailto_Fastmail/jquery.js.
+Then, add the JQuery and JQuery-UI files to the /jquery directory.  You need
+to at least be able to run the jquery-ui autocomplete and button widgets with
+the Redmond theme.
 
-Then, create fastmail_48 and fastmail_16 icons by resizing the
-fastmail_128 icon.
+Some files will probably have to be renamed. If you get the jquery files from
+Themeroller, then the files to rename will probably be:
+
+	* jquery/js/jquery-VERSION.min.js to
+	jquery/js/jquery.min.js
+
+	* jquery/themes/redmond/jquery-ui-VERSION.custom.css to
+	jquery/themes/redmond/jquery-ui.custom.css
+
+	* jquery/js/jquery-ui-VERSION.custom.min.js to
+	jquery/js/jquery-ui.custom.min.js
+
+	
 

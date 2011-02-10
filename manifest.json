@@ -2,14 +2,16 @@
   "name": "Mailto:Fastmail",
   "version": "1.4",
   "description": "Makes mailto links open in Fastmail.",
+  "background_page": "background.html",
   "content_scripts": [{
 	"all_frames": true,
 	"matches": ["<all_urls>"],
-	"js": ["jquery.js", "mailto.js"]
+	"js": ["jquery/js/jquery.min.js", "mailto.js"]
   }],
   "icons": {
 	"16": "fastmail_16.gif",
 	"48": "fastmail_48.gif",
 	"128": "fastmail_128.gif"
-  }
+  },
+  "options_page": "options.html"
 }

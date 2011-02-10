@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans'
+		rel='stylesheet'>
+		<link rel="stylesheet"
+		href="jquery/themes/redmond/jquery-ui.custom.css">
+		<title>Mailto:Fastmail Options</title>
+		<link rel="stylesheet" href="options.css">
+	</head>
+	<body>
+		<h1>Mailto:Fastmail</h1>
+		<p>
+			<label for="domain">Fastmail domain: </label>
+			<input type="text" id="domain" name="domain" value="fastmail.fm">
+			<a href="" target="_blank">view list</a>
+		</p>
+		<fieldset>
+			<legend>Fastmail site:</legend>
+			<p>
+				<input id="ssl" name="site" type="radio" value="ssl"
+				checked><label for="ssl"><em>secure</em>
+					(ssl.<span class="domain">fastmail.fm</span>)</label>
+			</p>
+			<p>
+				<input id="beta" name="site" type="radio" value="beta"><label
+					for="beta"><em>beta</em>
+					(beta.<span class="domain">fastmail.fm</span>)</label>
+			</p>
+			<p>	
+				<input id="old" name="site" type="radio"
+				value="old"><label for="old"><em>old</em>
+					(old.<span class="domain">fastmail.fm</span>)</label>
+			</p>
+			<p>
+				<input id="mobile" name="site" type="radio"
+				value="m"><label for="mobile"><em>mobile</em>
+					(m.<span class="domain">fastmail.fm</span>)</label>
+			</p>
+		</fieldset>
+		<p><a href="http://blog.fastmail.fm/2010/12/10/new-httpm-httpold-httpbeta-and-httpssl-site-prefixes/"
+			target="_blank">view site descriptions</a>
+		<p><button id="defaults">Defaults</button>
+		<button id="save">Save</button></p>
+		<p id="message">Note: the default settings work for everyone.</p>
+		<script src="jquery/js/jquery.min.js"></script>
+		<script src="jquery/js/jquery-ui.custom.min.js"></script>
+		<script src="options.js"></script>
+	</body>
+</html>
