@@ -1,6 +1,6 @@
 {
   "name": "Mailto:Fastmail",
-  "version": "1.4",
+  "version": "1.7",
   "description": "Makes mailto links open in Fastmail.",
   "background_page": "background.html",
   "content_scripts": [{
